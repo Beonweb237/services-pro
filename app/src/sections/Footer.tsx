@@ -143,15 +143,6 @@ export default function Footer() {
         <div className="container-main flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-3 text-xs" style={{ color: '#6B6B80' }}>
             <p>{t('footer.copyright')}</p>
-            <span style={{ color: '#6B6B80' }}>|</span>
-            <a
-              href="https://www.beonweb.cm/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-[#D4A853]"
-            >
-              Powered by <span style={{ color: '#D4A853', fontWeight: 600 }}>Beonweb</span>
-            </a>
           </div>
           <div className="flex items-center gap-1 text-xs">
             <button
